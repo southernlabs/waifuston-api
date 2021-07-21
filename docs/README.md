@@ -1,4 +1,4 @@
-# [Waifuston API]()
+# [Waifuston API](https://github.com/southernlabs/waifuston-api)
 
 > Simple HTTP api wrapper for Waifuston smart contract
 
@@ -25,7 +25,7 @@ ENDPOINTS=["https://main1.ton.dev/","https://main2.ton.dev/","https://main3.ton.
 
 You can check out this api at `https://api.waifuston.com`.
 
-For example visit `https://api.waifuston.com/waifus/1` in your browser.
+For example visit https://api.waifuston.com/waifus/1 in your browser.
 
 # Methods
 
