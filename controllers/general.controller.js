@@ -4,7 +4,7 @@ const {libNode} = require("@tonclient/lib-node");
 const {Account} = require("@tonclient/appkit");
 TonClient.useBinaryLibrary(libNode)
 const client = new TonClient({network: { 
-      endpoints: JSON.parse(process.env.endpoints)
+      endpoints: JSON.parse(process.env.ENDPOINTS)
 }});
 const ABI = require("../smc/CryptoNeuralWaifu.abi.json");
 
