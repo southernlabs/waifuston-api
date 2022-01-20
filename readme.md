@@ -2,15 +2,18 @@
 
 > Simple HTTP api wrapper for Waifuston smart contract
 
-[waifuston.com](https://Waifuston.com) is a first NFT collection and marketplace in [Free TON](https://freeton.org) blockchain.
+👉 Check out our new [complete True NFT toolset](https://github.com/southernlabs/tnft-generator). With that tool you can setup your own True NFT collection. Check out `api-server` component for updated code and Nest.js framework.
 
-This repository holds an API wrapper for smart contracts using [TON SDK](https://github.com/tonlabs/TON-SDK).
+
+[waifuston.com](https://Waifuston.com) is a first NFT collection and marketplace in [Everscale](https://freeton.org) blockchain.
+
+This repository holds an API wrapper for smart contract using [TON SDK](https://github.com/tonlabs/TON-SDK).
 
 Smart contract documentation and full methods description can be found in repository: https://github.com/southernlabs/waifuston-contracts
 
-To fetch waifus history you should process extarnal messages from blockchain. This API does not handle external messages yet, you can setup your own listener, such as https://github.com/southernlabs/ton-watcher
+To fetch waifus history you should process external messages from blockchain. This API does not handle external messages yet, you can set up your own listener, such as https://github.com/southernlabs/ton-watcher
 
-_images remark_. Images are stored off-chain. We know it is a little bit insecure and will be fixed in future. You can get any waifu image easily via our cdn: `https://images.waifuston.com/0x0000000000000000000000000000000000000000000000000000000000000000.jpg`
+_images remark_. Images are stored off-chain. We know it is a little bit insecure and will be fixed in the future. You can get any waifu image easily via our CDN: `https://images.waifuston.com/0x0000000000000000000000000000000000000000000000000000000000000000.jpg`
 
 ## Deployment
 
